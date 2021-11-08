@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    color: gray;
+}
+
+p{
+    text-align: center;
+    color: gray;
+}
+
+.container{
+    display: flex;
+  /* Change values to  👇 experiment*/
+    justify-content: center;
+ }
+
+ .wrapper {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+    justify-content: center;
+  }
+  
+  .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    justify-content: center;
+  }
