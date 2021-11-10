@@ -1,17 +1,43 @@
 h1{
     text-align: center;
     color: gray;
+    margin: 10px;;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  background-color:gainsboro;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(151, 151, 151);
 }
 
 p{
     text-align: center;
     color: gray;
+    margin: 10px;
 }
 
 .container{
     display: flex;
-  /* Change values to  👇 experiment*/
     justify-content: center;
+    margin: auto;
  }
 
  .wrapper {
@@ -21,11 +47,11 @@ p{
     background-color: #fff;
     color: #444;
     justify-content: center;
+    margin: 10px;
+    overflow: auto;
     
   }
 
- 
-  
   .box {
     background-color: #444;
     color: #fff;
