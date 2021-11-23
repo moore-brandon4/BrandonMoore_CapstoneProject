@@ -9,7 +9,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: auto;
-  background-color:gainsboro;
+  background-color:rgb(82, 82, 82);
 }
 
 li {
@@ -62,4 +62,20 @@ p{
     text-align: center;
   }
 
-  
+
+
+        a:link {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(236, 255, 254);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
