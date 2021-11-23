@@ -14,3 +14,5 @@ Lets keep it simple and execute well. If your goal is to get into a position lik
 I would suggest sticking to either Python + Flask and focus on banging out the front end with Bootstrap (makes mobile easy). If youre comfortable already with javascript, and depending on your level I would suggest Node. Jumping from node to React is easier than learning javascript since React is just javascript with a framework. 
 
 pip install flask
+
+curl https://cli-assets.heroku.com/install.sh | sh
