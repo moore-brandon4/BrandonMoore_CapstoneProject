@@ -26,5 +26,5 @@ def collaboration():
     return render_template("collaboration.html")  
 
 
-         
-capstone.run(debug=True)                   
+if __name__ == "__main__":         
+    capstone.run(debug=True)                   
