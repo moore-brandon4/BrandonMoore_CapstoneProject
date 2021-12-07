@@ -16,3 +16,5 @@ I would suggest sticking to either Python + Flask and focus on banging out the f
 pip install flask
 
 curl https://cli-assets.heroku.com/install.sh | sh
+
+Heroku: 
